@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 10% auto;
+    border: dotted 10px rgba(0,0,0,0.9);
+    padding: 70px;
+}
+
+.produto img{
+height: 200px;
+width: 180px;
+border-radius: 10px;    
+}
+
+.produto img:hover {
+ transform: scale(1.5);
+}
